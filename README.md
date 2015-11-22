@@ -1,0 +1,2 @@
+# Dagger2-ButterKnife-Retrofit-OkHttp-Picasso-Gson_Annotations
+Third party librabries make developers' live way easy. They can significantly reduce the amount of code in your project. You can build robust apps by simply these libraries. In this tutorial I am going to introduce some very powerful libraries for android app development.  Lets do some reading practic first. Dagger-2-ButterKnife-Retrofit-OkHttp-Picasso-Gson-Annotations
