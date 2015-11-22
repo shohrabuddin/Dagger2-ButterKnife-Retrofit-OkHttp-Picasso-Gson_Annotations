@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Third party librabries make developers' live way easy. They can significantly reduce the amount of code in your project. You can build robust apps by simply these libraries. In this tutorial I am going to introduce some very powerful libraries for android app development.  Lets do some reading practic first. 
+Third party librabries make developers' life way easy. They can significantly reduce the amount of code in your project. You can build robust apps by using these libraries. In this tutorial I am going to introduce some very powerful libraries for android app development.  Lets do some reading practice first. 
 
 **Dagger**
 _"The best classes in any application are the ones that do stuff: the BarcodeDecoder, the KoopaPhysicsEngine, and the AudioStreamer. These classes have dependencies; perhaps a BarcodeCameraFinder, DefaultPhysicsEngine, and an HttpStreamer._
