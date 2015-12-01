@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Shohrab</string>
+    <string name="sort_by">Sort By</string>
+    <string name="car_name">Car Name</string>
+    <string name="car_brand">Car Brand</string>
+    <string name="car_price">Car Price</string>
+    <string name="oldest">oldest</string>
+    <string name="price_low">price-low</string>
+    <string name="price_high">price-high</string>
+    <string name="mileage_low">mileage_low</string>
+    <string name="mileage_high">mileage_high</string>
+    <string name="title">Awesome Cars(newest)</string>
+    <string name="welcome">Hello! Welcome coders!! </string>
+    <string name="libraries">I have used to following libraries \n-Retrofit: for making network based API call\n-OkHttp:
+        for caching response to avoid the network completely repeating requests\n-GSON Annotations: for mapping POJO
+        class with JSON fields \n-Picasso: for loading and caching image data\n-ButtterKnife: for injecting views
+        \n-Dagger 2: for handling Dependency\n\nI have used SQLite and SharedPreferences for caching data\n\n I have
+        used Android Studio 1.4 for the development work</string>
+
+</resources>

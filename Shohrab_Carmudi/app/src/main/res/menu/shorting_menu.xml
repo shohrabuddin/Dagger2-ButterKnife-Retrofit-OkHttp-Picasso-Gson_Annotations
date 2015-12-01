@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity" >
+    <item android:id="@+id/action_settings" android:title="@string/sort_by"
+        android:orderInCategory="100" app:showAsAction="always" >
+    <menu android:id="@+id/subMenu" >
+        <item
+            android:id="@+id/sorting_menu_newest"
+            android:orderInCategory="101"
+            app:showAsAction="never"
+            android:title="Newest"/>
+        <item
+            android:id="@+id/sorting_menu_oldest"
+            android:orderInCategory="102"
+            app:showAsAction="never"
+            android:title="Oldest"/>
+        <item
+            android:id="@+id/sorting_menu_pricelow"
+            android:orderInCategory="103"
+            app:showAsAction="never"
+            android:title="Price-Low"/>
+
+        <item
+            android:id="@+id/sorting_menu_pricehigh"
+            android:orderInCategory="104"
+            app:showAsAction="never"
+            android:title="Price-High"/>
+        <item
+            android:id="@+id/sorting_menu_mileagelow"
+            android:orderInCategory="105"
+            app:showAsAction="never"
+            android:title="Mileage-Low"/>
+        <item
+            android:id="@+id/sorting_menu_mileagehigh"
+            android:orderInCategory="106"
+            app:showAsAction="never"
+            android:title="Mileage-High"/>
+
+    </menu>
+    </item>
+
+</menu>

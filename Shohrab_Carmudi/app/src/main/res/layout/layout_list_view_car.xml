@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/layout_list_view_car_imgViewCar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="2px"
+        android:layout_marginRight="4px"
+        android:layout_marginTop="2px"
+        android:src="@drawable/default_image_carmudi">
+    </ImageView>
+
+    <TextView
+        android:id="@+id/layout_list_view_car_txtViewCarName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/layout_list_view_car_imgViewCar"
+        android:text="@string/car_name"
+        android:textSize="15sp"
+        android:textStyle="bold" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/layout_list_view_car_txtViewBrannd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layout_list_view_car_txtViewCarName"
+        android:layout_toRightOf="@+id/layout_list_view_car_imgViewCar"
+        android:textSize="14sp"
+        android:text="@string/car_brand">
+    </TextView>
+
+    <TextView
+        android:id="@+id/layout_list_view_car_txtViewPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layout_list_view_car_txtViewBrannd"
+        android:layout_toRightOf="@+id/layout_list_view_car_imgViewCar"
+        android:textSize="14sp"
+        android:text="@string/car_price">
+    </TextView>
+</RelativeLayout>
