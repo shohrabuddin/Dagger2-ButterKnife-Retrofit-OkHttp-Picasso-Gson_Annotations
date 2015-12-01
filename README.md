@@ -1,4 +1,4 @@
-## Dagger2-ButterKnife-Retrofit-OkHttp-Picasso-Gson_Annotations
+## Dagger2-ButterKnife-Retrofit-OkHttp-Picasso-GsonAnnotations
 
 ## Introduction
 
@@ -14,20 +14,23 @@ Official Site: http://square.github.io/dagger/
 
 **ButterKnife**
 _"Field and method binding for Android views which uses annotation processing to generate boilerplate code for you."_
+ButterKnife
 
-Eliminate findViewById calls by using @Bind on fields.
-Group multiple views in a list or array. Operate on all of them at once with actions, setters, or properties.
-Eliminate anonymous inner-classes for listeners by annotating methods with @OnClick and others.
-Eliminate resource lookups by using resource annotations on fields
+    eliminate findViewById calls by using @Bind on fields.
+    group multiple views in a list or array. Operate on all of them at once with actions, setters, or properties.
+    eliminate anonymous inner-classes for listeners by annotating methods with @OnClick and others.
+    eliminate resource lookups by using resource annotations on fields
+    
 Official Site: http://jakewharton.github.io/butterknife/
 
 **Retrofit**
-_"etrofit turns your HTTP API into a Java interface."_
+_"Retrofit turns your HTTP API into a Java interface."_
 Use annotations to describe the HTTP request:
 
     URL parameter replacement and query parameter support
     Object conversion to request body (e.g., JSON, protocol buffers)
     Multipart request body and file upload
+    
 Official Site: http://square.github.io/retrofit/
 
 **OkHttp**
@@ -40,13 +43,27 @@ _"Many common pitfalls of image loading on Android are handled automatically by 
     Handling ImageView recycling and download cancelation in an adapter.
     Complex image transformations with minimal memory use.
     Automatic memory and disk caching.
+    
 Official Site : http://square.github.io/picasso/
 
 **GSON Annotations: com.google.gson.annotations**
 _"Gson provides a set of annotations to simplify the serialisation and deserialisation processes. In this article we will see how we can use these annotations and how these can simplify the use of Gson to convert between Java objects and JSON objects."_
 
 OK thats enough theories ;) Lets getting our hand dirty...
+
 ## Project Description
+
+The aim of this project is to use all of the above mentioned libraries. The project itself is very simple. The taks are:
+
+1. Create an app for Smartphones and Tablets that queries a web service API for catalog
+content, parses the JSONformatted response and displays the data. The data consists of a list of products that should be shown in a vertical scrolling list.
+2. In the product list show the product's image, name, price and brand
+3. Add UI for sort functionality on all sort orders (newest, oldest, price_low etc.).
+4. Add offline functionality (Cache images, save data within a local persistence store, etc.)
+
+**Source Code**
+
+If you have android development experience then you should easily understand the source code of this project. Dagger and Retrofit might take litte longer to understand. __I would suggest to study each of the library from their official sites before getting into the souce code.__ You can find a lot of comments in my source code. It will help you to understand the code. So I am not going to elaborate the source code here. However I am providing the necessary gradle setup for the project. 
 
 **App's Gradle Setup**
 
@@ -135,3 +152,4 @@ task clean(type: Delete) {
 }
 
 ```
+
