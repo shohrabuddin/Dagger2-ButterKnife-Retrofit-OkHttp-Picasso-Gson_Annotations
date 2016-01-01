@@ -154,6 +154,7 @@ public class MainActivity extends AppCompatActivity {
         if(awesomeOfflineCars.size()>0){
             carAdapterOffline = new CarAdapterOffline(MainActivity.this, awesomeOfflineCars);
             listView_Car.setAdapter(carAdapterOffline);
+            txtTitle.setText("Awesome Cars (Cached)");
         }else{ //No data is available in cache
             if(mUtility.isNetworkAvailable(getApplicationContext())){ // If network is available then fetch data from API
                 apiCall(sortingTag);
